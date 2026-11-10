@@ -297,7 +297,67 @@ Explores performance across product categories, payment methods, customer segmen
 ![Average Delivery Delay DAX](images/Powerbi-Average-deliverydelay-DAX.png)
 
 
+# Challenges & Lessons Learned
 
+This project also helped me understand the importance of data validation and consistent analytical definitions.
+
+1. Understanding order status correctly
+Initially, I calculated the return rate using only the Returned status and missed 132 Refunded orders. This resulted in a return rate of approximately 26% instead of 40%.
+
+I learned to examine all distinct values in a column before defining business logic.
+
+2. Maintaining consistency between SQL and Power BI
+
+I initially removed duplicate order IDs separately in Power BI and MySQL. Each environment retained a different record, resulting in small differences between the two sets of results.
+
+For example:
+
+SQL recorded 393 returns.
+
+Power BI recorded 392 returns.
+
+Revenue differed by approximately 0.1%.
+
+I used the Power BI results for the dashboard and documented the discrepancy. Going forward, I would establish one cleaned source dataset and use it consistently across all analytical tools.
+
+3. Avoiding misleading segmentation
+
+Breaking down data into too many combinations, such as state, customer segment and payment method, created groups with very few records. Some groups showed extreme percentages based on only two orders.
+I learned to display the underlying order count alongside percentage-based KPIs and avoid drawing conclusions from very small samples.
+
+4. Handling inconsistent dates
+
+Date standardisation was one of the most time-consuming parts of the project. Different date formats and invalid entries demonstrated how much data quality can affect the overall analysis.
+
+12. Project Limitations
+
+The findings should be interpreted with the following limitations in mind:
+
+The dataset is fictional and does not represent an actual e-commerce business.
+
+The dataset contains 993 cleaned orders, which is sufficient for demonstrating the analytical workflow but limited for drawing conclusions about real-world business patterns.
+
+Revenue is calculated using unit price multiplied by quantity, before discounts.
+
+Approximately 30 orders have missing quantities and are excluded from revenue calculations.
+
+Approximately 28% of orders have no recorded delivery time.
+
+Most analytical groups contain approximately 100–120 orders, limiting the reliability of small differences.
+
+Customer retention analysis is based on a single year of transactional data.
+
+Delivery performance is measured using average delivery days because no agreed delivery target was provided.
+
+Small differences between SQL and Power BI remain because duplicate records were handled separately in each environment.
+
+If this were a real client engagement, I would clarify three business definitions before finalising the reporting:
+
+Should refunded orders be included in the return KPI?
+
+Should revenue be reported before or after discounts?
+
+What delivery timeframe should define a late order?
 9. Tools & Technologies
 | Tool | Application |
 |---|---|
@@ -306,3 +366,12 @@ Explores performance across product categories, payment methods, customer segmen
 | Power BI | Interactive dashboard development and visualisation |
 | DAX | KPI calculations and analytical measures |
 
+# Final Project Takeaway
+
+This project gave me practical experience in approaching a business problem from start to finish: understanding stakeholder requirements, preparing inconsistent data, designing a relational data model, analysing business performance using SQL and presenting findings through Power BI.
+
+More importantly, it helped me understand that business analysis is not just about calculating KPIs or creating dashboards. It is about questioning the data, understanding what the numbers actually mean, recognising limitations and communicating recommendations that support better business decisions.
+
+Project Type: Business Analysis | E-commerce Analytics | Data Analytics
+
+Tools: Power Query | MySQL | Power BI | DAX
