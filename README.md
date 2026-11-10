@@ -307,17 +307,12 @@ Initially, I calculated the return rate using only the Returned status and misse
 I learned to examine all distinct values in a column before defining business logic.
 
 2. Maintaining consistency between SQL and Power BI
-
 I initially removed duplicate order IDs separately in Power BI and MySQL. Each environment retained a different record, resulting in small differences between the two sets of results.
-
 For example:
-
 SQL recorded 393 returns.
-
 Power BI recorded 392 returns.
 
 Revenue differed by approximately 0.1%.
-
 I used the Power BI results for the dashboard and documented the discrepancy. Going forward, I would establish one cleaned source dataset and use it consistently across all analytical tools.
 
 3. Avoiding misleading segmentation
@@ -329,7 +324,7 @@ I learned to display the underlying order count alongside percentage-based KPIs 
 
 Date standardisation was one of the most time-consuming parts of the project. Different date formats and invalid entries demonstrated how much data quality can affect the overall analysis.
 
-12. Project Limitations
+# Project Limitations
 
 1. The findings should be interpreted with the following limitations in mind:
 
