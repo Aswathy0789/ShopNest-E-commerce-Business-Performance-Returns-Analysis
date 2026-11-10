@@ -256,6 +256,8 @@ This query identifies customers who placed more than one order during the analys
 
 # Complete SQL Script
 The complete SQL script for this project is available in the repository. It includes the SQL queries used to analyse ShopNest's business performance and answer the project's business questions.
+## SQL Scripts
+[View the full SQL script](sql/shopnest_analysis.sql)
 
 
 # Overall Return Rate
