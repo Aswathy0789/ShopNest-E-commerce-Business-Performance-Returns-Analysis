@@ -194,10 +194,6 @@ I examined customer ordering patterns to understand repeat purchasing behaviour.
 
 3.Approximately 75% of customers placed more than one order.
 
-4.34% of customers who ordered in the first half of the year did not place another order in the second half.
-
-5.I also tested a different observation window (October–December), which produced a 58% no-repeat figure.
-
 # Business interpretation:
 
 The repeat customer rate provides a useful indication of purchasing behaviour. However, the no-repeat calculation is only a rough proxy for customer churn because the dataset contains just one year of transactions and does not include an actual customer churn date.
@@ -227,7 +223,6 @@ Some examples of the SQL analysis are included below.
 # Overall Return Rate
 Returned and refunded orders are treated together as returns.
 
-![Uploading image.png…]()
 
 
 9. Tools & Technologies
