@@ -220,6 +220,40 @@ Business Recommendations
 I used MySQL to answer the business questions and validate the findings.
 Some examples of the SQL analysis are included below.
 
+### SQL Query Screenshots
+
+The following screenshots show the SQL queries and their outputs used to analyse ShopNest's business performance.
+
+#### 1. Overall Return Rate
+This query analyses the overall percentage of returned orders.
+
+![SQL Return Rate](images/sql-return-rate.png)
+
+#### 2. Cancellation Rate
+This query examines the percentage of orders cancelled.
+
+![SQL Cancellation Rate](images/Sql-cancellation-rate.png)
+
+#### 3. Returns by Product Category
+This query compares product returns across different categories.
+
+![SQL Category Returns](images/sql-category-returns.png)
+
+#### 4. Product Return Reasons
+This query analyses the reasons recorded for product returns.
+
+![SQL Return Reasons](images/sql-return-reasons.png)
+
+#### 5. Delivery Performance
+This query examines delivery performance across different locations.
+
+![SQL Delivery Performance](images/sql-delivery-performance.png)
+
+#### 5. Repeat Customer Analysis
+This query identifies customers who placed more than one order during the analysis period.
+
+![SQL Repeat Customers](images/sql-repeat-customers.png)
+
 # Overall Return Rate
 Returned and refunded orders are treated together as returns.
 
