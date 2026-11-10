@@ -257,7 +257,7 @@ This query identifies customers who placed more than one order during the analys
 # Complete SQL Script
 The complete SQL script for this project is available in the repository. It includes the SQL queries used to analyse ShopNest's business performance and answer the project's business questions.
 
-[View Complete SQL Analysis – ShopNest](ShopNest_SQL_Analysis.Queries.sql)
+
 # Overall Return Rate
 Returned and refunded orders are treated together as returns.
 
