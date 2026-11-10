@@ -272,7 +272,20 @@ Explores performance across product categories, payment methods, customer segmen
 
 # Key DAX Measures
 
+### Return Rate
+![Return Rate DAX](images/Powerbi-Return-rate-DAX.png)
 
+### Returned & Refunded Orders
+![Returned and Refunded Orders DAX](images/Powerbi-Return-Refunded-Orders-DAX.png)
+
+### Cancelled Rate
+![Cancelled Rate DAX](images/Powerbi-Cancelled-rate-DAX.png)
+
+### Cancelled Orders
+![Cancelled Orders DAX](images/Powerbi-Cancelled-order-DAX.png)
+
+### Average Delivery Delay
+![Average Delivery Delay DAX](images/Powerbi-Average-deliverydelay-DAX.png)
 
 9. Tools & Technologies
 | Tool | Application |
