@@ -271,7 +271,11 @@ Page 1 – Order Overview
 
 
 Provides a high-level view of order performance, revenue, returns and cancellations.
+
 Page 2 – Performance Breakdown
+
+
+
 Explores performance across product categories, payment methods, customer segments, delivery performance and return reasons.
 
 # Key DAX Measures
