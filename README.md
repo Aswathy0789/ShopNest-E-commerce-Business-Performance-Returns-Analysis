@@ -29,7 +29,7 @@ Three key stakeholders had different business questions.
 | Head of Customer Experience | Customer experience and product performance | Do payment methods or customer segments experience more returns? Which categories generate the most revenue? Why are customers returning products? |
 | CFO | Data accuracy and financial reporting | Can management trust the reported order volumes and revenue? Are duplicate orders affecting financial figures? |
 
-# My objective: Define relevant KPIs, investigate the business questions, identify patterns and translate the findings into practical recommendations.
+My objective: Define relevant KPIs, investigate the business questions, identify patterns and translate the findings into practical recommendations.
 
 # Project Approach
 
@@ -254,15 +254,23 @@ This query identifies customers who placed more than one order during the analys
 
 ![SQL Repeat Customers](images/sql-repeat-customers.png)
 
+The same analytical approach was used to investigate cancellation trends, payment methods, customer segments, geographical performance and return reasons.
 # Complete SQL Script
 The complete SQL script for this project is available in the repository. It includes the SQL queries used to analyse ShopNest's business performance and answer the project's business questions.
 ## SQL Scripts
 
 [View the full SQL script](ShopNest_SQL_Analysis_Queries.sql)
 
+# Power BI Dashboard
 
-# Overall Return Rate
-Returned and refunded orders are treated together as returns.
+I developed an interactive Power BI dashboard to present the findings in a structured and accessible format.
+The dashboard consists of two main pages.
+Page 1 – Order Overview
+Provides a high-level view of order performance, revenue, returns and cancellations.
+Page 2 – Performance Breakdown
+Explores performance across product categories, payment methods, customer segments, delivery performance and return reasons.
+
+# Key DAX Measures
 
 
 
