@@ -264,17 +264,18 @@ The complete SQL script for this project is available in the repository. It incl
 # Power BI Dashboard
 
 I developed an interactive Power BI dashboard to present the findings in a structured and accessible format.
+
 The dashboard consists of two main pages.
 
 Page 1 – Order Overview
 
-
+![Page 1 - Order Overview](images/dashboard-page1-order-overview.png)
 
 Provides a high-level view of order performance, revenue, returns and cancellations.
 
 Page 2 – Performance Breakdown
 
-
+![Page 2 - Performance Breakdown](images/dashboard-page2-performance-breakdown.png)
 
 Explores performance across product categories, payment methods, customer segments, delivery performance and return reasons.
 
