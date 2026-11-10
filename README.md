@@ -265,7 +265,11 @@ The complete SQL script for this project is available in the repository. It incl
 
 I developed an interactive Power BI dashboard to present the findings in a structured and accessible format.
 The dashboard consists of two main pages.
+
 Page 1 – Order Overview
+
+
+
 Provides a high-level view of order performance, revenue, returns and cancellations.
 Page 2 – Performance Breakdown
 Explores performance across product categories, payment methods, customer segments, delivery performance and return reasons.
@@ -286,6 +290,8 @@ Explores performance across product categories, payment methods, customer segmen
 
 ### Average Delivery Delay
 ![Average Delivery Delay DAX](images/Powerbi-Average-deliverydelay-DAX.png)
+
+
 
 9. Tools & Technologies
 | Tool | Application |
