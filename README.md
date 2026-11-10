@@ -331,34 +331,36 @@ Date standardisation was one of the most time-consuming parts of the project. Di
 
 12. Project Limitations
 
-The findings should be interpreted with the following limitations in mind:
+1. The findings should be interpreted with the following limitations in mind:
 
-The dataset is fictional and does not represent an actual e-commerce business.
+2. The dataset is fictional and does not represent an actual e-commerce business.
 
-The dataset contains 993 cleaned orders, which is sufficient for demonstrating the analytical workflow but limited for drawing conclusions about real-world business patterns.
+3. The dataset contains 993 cleaned orders, which is sufficient for demonstrating the analytical workflow but limited for drawing conclusions about real-world business patterns.
 
-Revenue is calculated using unit price multiplied by quantity, before discounts.
+4. Revenue is calculated using unit price multiplied by quantity, before discounts.
 
-Approximately 30 orders have missing quantities and are excluded from revenue calculations.
+5. Approximately 30 orders have missing quantities and are excluded from revenue calculations.
 
-Approximately 28% of orders have no recorded delivery time.
+6. Approximately 28% of orders have no recorded delivery time.
 
-Most analytical groups contain approximately 100–120 orders, limiting the reliability of small differences.
+7. Most analytical groups contain approximately 100–120 orders, limiting the reliability of small differences.
 
-Customer retention analysis is based on a single year of transactional data.
+8. Customer retention analysis is based on a single year of transactional data.
 
-Delivery performance is measured using average delivery days because no agreed delivery target was provided.
+9. Delivery performance is measured using average delivery days because no agreed delivery target was provided.
 
-Small differences between SQL and Power BI remain because duplicate records were handled separately in each environment.
+10. Small differences between SQL and Power BI remain because duplicate records were handled separately in each environment.
 
 If this were a real client engagement, I would clarify three business definitions before finalising the reporting:
 
-Should refunded orders be included in the return KPI?
+1. Should refunded orders be included in the return KPI?
 
-Should revenue be reported before or after discounts?
+2. Should revenue be reported before or after discounts?
 
-What delivery timeframe should define a late order?
-9. Tools & Technologies
+3. What delivery timeframe should define a late order?
+
+# Tools & Technologies
+
 | Tool | Application |
 |---|---|
 | Power Query | Data cleaning, transformation and standardisation |
